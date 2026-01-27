@@ -1,0 +1,63 @@
+{
+  "name": "@metatuner/mcp-analytics",
+  "version": "0.1.0",
+  "description": "TypeScript SDK for tracking MCP events to Metatuner Analytics",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build && npm run test"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "analytics",
+    "tracking",
+    "metatuner",
+    "observability",
+    "monitoring"
+  ],
+  "author": "Metatuner",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/metatuner/mcp-analytics"
+  },
+  "bugs": {
+    "url": "https://github.com/metatuner/mcp-analytics/issues"
+  },
+  "homepage": "https://metatuner.dev",
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.3.0",
+    "vitest": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
