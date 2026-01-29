@@ -472,9 +472,9 @@ See the [examples](./examples) directory for more usage examples:
 
 ## Support
 
-- **Documentation:** [https://metatuner.dev/docs](https://metatuner.dev/docs)
+- **Documentation:** [https://metatuner.ai/dev/docs](https://metatuner.ai/dev/docs)
 - **Issues:** [GitHub Issues](https://github.com/metatuner/mcp-analytics/issues)
-- **Dashboard:** [https://metatuner.dev/dashboard](https://metatuner.dev/dashboard)
+- **Dashboard:** [https://metatuner.ai/dashboard](https://metatuner.ai/dashboard)
 
 ## License
 

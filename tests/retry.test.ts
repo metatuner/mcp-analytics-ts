@@ -54,6 +54,7 @@ describe('RetryHandler', () => {
     const fn = vi.fn().mockRejectedValue(error);
 
     const promise = handler.execute(fn);
+    promise.catch(() => {}); // prevent unhandled rejection warning
 
     // First attempt fails immediately
     await vi.advanceTimersByTimeAsync(0);

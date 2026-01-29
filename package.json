@@ -42,12 +42,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/metatuner/mcp-analytics"
+    "url": "git+https://github.com/metatuner/mcp-analytics.git"
   },
   "bugs": {
     "url": "https://github.com/metatuner/mcp-analytics/issues"
   },
-  "homepage": "https://metatuner.dev",
+  "homepage": "https://metatuner.ai/dev",
   "devDependencies": {
     "@types/node": "^22.0.0",
     "tsup": "^8.0.0",
